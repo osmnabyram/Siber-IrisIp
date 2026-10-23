@@ -19,6 +19,10 @@ Wraps industry-standard tools such as Nmap and Nikto behind a single interactive
 
 ---
 
+<div align="center">
+<img src="assets/how-it-works.svg" alt="How it works: an animated diagram of the tool's core flow." width="820" />
+</div>
+
 ## Overview
 
 IrisIp accelerates the reconnaissance phase of a penetration test. You enter a target IP or hostname, pick a scan mode from the menu, and the tool runs the matching Nmap / Nikto command set in the background and prints the results to the terminal. It is built to make the slow, command-heavy early stage of an engagement quick and consistent.
